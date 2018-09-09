@@ -1,0 +1,51 @@
+
+body{
+    background-color: ;
+}
+
+/* fellows */
+
+.title-fellows{
+    font-size: 0.5em;
+}
+.card-img-top{
+    padding: 0.5em;
+    border-radius: 1em;
+    opacity: 0.6;
+}
+.card-img-top:hover{
+    opacity: 1;
+}
+.reward{
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.5;
+    border-radius: 0.5em;
+}
+.card:hover .reward{
+    display: none;
+}
+.text{
+    text-align: center;
+    font-size: 1vw;
+    padding: 1em; 
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: darkslategray;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    color: white;
+}
+footer a:link{
+text-decoration:none;
+} 
