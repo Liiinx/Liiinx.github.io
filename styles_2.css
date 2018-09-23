@@ -1,0 +1,195 @@
+@font-face {
+    font-family: partybusiness;
+    src: url("/home/felix/Bureau/find the precious/police/partybusiness.ttf");
+}
+
+@font-face {
+    font-family: tngan;
+    src: url("/home/felix/Bureau/find the precious/police/tnganbi.ttf");
+}
+
+@font-face {
+    font-family: anicm;
+    src: url("/home/felix/Bureau/find the precious/police/anicm___.ttf");
+}
+
+
+a:hover{
+    color: #f8f9fa;
+}
+section{
+    padding: 2em;
+}
+p, h4, .card-title, #fellows a{
+    font-family: partybusiness, sans-serif;
+}
+h2{
+    font-family: anicm, sans-serif;
+}
+.card{
+    background-color: black;
+}
+#fellows ,#hunters ,#army{
+    background-image: url("/home/felix/Bureau/find the precious/bg_light.png");
+}
+#rewards ,#ring ,#contact{
+    background-image: url("/home/felix/Bureau/find the precious/bg_dark.png");
+}
+hr{
+    color: orangered;
+    background-color: orangered;
+    margin: 0 auto;
+    height: 2px;
+    width: 70%;
+    text-align: center;
+}
+
+/* header */
+
+.navbar{
+    background-color: orangered;
+}
+header a{
+    color: white;
+    font-family: anicm, sans-serif;
+    font-size: 0.8em;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* carrousel */
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-30%);
+}
+.carousel-caption h4  {
+    font-size: 4em;
+}
+.carousel-caption p {
+    font-size: 2em;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+
+/* fellows */
+
+#fellows a{
+    color: #343a40;
+    font-size: 2em;
+}
+#fellows a:hover{
+    color: orangered;
+}
+.orange{
+    color: orangered;
+}
+.card-deck{
+    margin-top: 1em;
+}
+.card{
+    border-radius: inherit;
+}
+.title-fellows{
+    font-size: 0.5em;
+}
+.card-title{
+    font-size: 2em;
+}
+.card-deck{
+    display: inherit;
+}
+.card-img-top{
+    padding: 0.5em;
+    opacity: 0.6;
+    
+}
+.card-img-top:hover{
+    opacity: 1;
+}
+.reward{
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    margin-top: 2em;
+    border-radius: 0.5em;
+    z-index: 1;
+    opacity: 0.8;
+    box-shadow: 0 0 5px 5px white;
+}
+.card:hover .reward{
+    display: none;
+}
+.text{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 1rem;
+    color: black;
+    
+}
+.dead{
+    position: absolute;
+    width: 80%;
+    margin-top: 3em;
+    z-index: 1;
+    opacity: 0.8; 
+}
+.card:hover .dead{
+    display: none;
+}
+.dead p{
+    text-align: center;
+    font-size: 3em;
+}
+#fellows h5 , p{
+    color: white;
+}
+.name{
+    position: absolute;
+    margin-top: 15vw;
+    font-size: 5vw;
+    z-index: 1;
+}
+.card:hover .name{
+    display: none;
+}
+.aragon {
+    text-decoration: line-through  orangered;
+}
+.merde {
+    font-family: tngan, sans-serif;
+    color: orangered;
+}
+.merde2 {
+    display: none;
+    color: orangered;
+}
+#fellows a:hover .merde2 {
+    display: inline;
+}
+
+
+/* contact */
+
+
+
+
+/* footer */
+
+footer{
+    background-color: orangered;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    color: white;
+}
+footer a:link{
+text-decoration:none;
+} 
