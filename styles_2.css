@@ -1,16 +1,16 @@
 @font-face {
     font-family: partybusiness;
-    src: url("/home/felix/Bureau/find the precious/police/partybusiness.ttf");
+    src: url("police/partybusiness.ttf");
 }
 
 @font-face {
     font-family: tngan;
-    src: url("/home/felix/Bureau/find the precious/police/tnganbi.ttf");
+    src: url("police/tnganbi.ttf");
 }
 
 @font-face {
     font-family: anicm;
-    src: url("/home/felix/Bureau/find the precious/police/anicm___.ttf");
+    src: url("police/anicm___.ttf");
 }
 
 
@@ -30,10 +30,10 @@ h2{
     background-color: black;
 }
 #fellows ,#hunters ,#army{
-    background-image: url("/home/felix/Bureau/find the precious/bg_light.png");
+    background-image: url("image/bg_light.png");
 }
 #rewards ,#ring ,#contact{
-    background-image: url("/home/felix/Bureau/find the precious/bg_dark.png");
+    background-image: url("image/bg_dark.png");
 }
 hr{
     color: orangered;
@@ -189,7 +189,11 @@ footer li{
 }
 footer li a{
     color: white;
+    font-family: anicm, sans-serif;
 }
 footer a:link{
-text-decoration:none;
+    text-decoration:none;
 } 
+footer a:hover {
+    text-decoration: underline;
+}
