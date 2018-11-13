@@ -1,0 +1,109 @@
+.main {
+    height: 150px;
+    background-image: url("image/bg_light.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rond1 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 6px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 6em;
+    width: 6em;
+    left: 300px;
+    margin-left: 400px;
+}
+
+.rond2 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 5px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    left: 250px;
+    margin-left: 400px;
+}
+
+.rond3 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 4.1666666667px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 4.1666666667em;
+    width: 4.1666666667em;
+    left: 208.3333333333px;
+    margin-left: 400px;
+}
+
+.rond4 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 3.4722222222px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 3.4722222222em;
+    width: 3.4722222222em;
+    left: 173.6111111111px;
+    margin-left: 400px;
+}
+
+.rond5 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 2.8935185185px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 2.8935185185em;
+    width: 2.8935185185em;
+    left: 144.6759259259px;
+    margin-left: 400px;
+}
+
+.rond6 {
+    box-shadow: inset 3px 3px 4px #808080, 3px 3px 4px #808080;
+    background-color: transparent;
+    border: 2.4112654321px solid #ff0004;
+    border-radius: 50%;
+    position: absolute;
+    height: 2.4112654321em;
+    width: 2.4112654321em;
+    left: 120.5632716049px;
+    margin-left: 400px;
+}
+
+.rond {
+    box-shadow: inset 3px 3px 4px none, 3px 3px 4px none;
+    background-color: transparent;
+    border: 3px solid #FF8D33;
+    border-radius: 50%;
+    position: relative;
+    height: 3em;
+    width: 3em;
+    left: 0px;
+}
+
+.margin {
+    margin: 0 10px;
+}
+
+.rond7 {
+    box-shadow: inset 3px 3px 4px #F3C507, 3px 3px 4px #F3C507;
+    background-color: transparent;
+    border: 5px solid #F3DA07;
+    border-radius: 50%;
+    position: relative;
+    height: 7em;
+    width: 7em;
+    left: 0px;
+}
+
+h1 {
+    font-family: anicm, sans-serif;
+}

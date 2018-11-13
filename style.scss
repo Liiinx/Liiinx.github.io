@@ -1,0 +1,44 @@
+.main {
+  height: 150px;
+  background-image: url("image/bg_light.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin myRing ($x, $y, $blur, $width, $height, $borderWidth, $left, $borderColor, $position, $ombreColor) {
+  box-shadow :inset $x $y $blur $ombreColor,
+  $x $y $blur $ombreColor;
+  background-color: transparent;
+  border : $borderWidth solid $borderColor ;
+  border-radius: 50%;
+  position : $position;
+  height : $height;
+  width : $width;
+  left : $left;
+
+}
+
+$n : 6;
+@for $i from 1 through 6 {
+  .rond#{$i} {
+    @include myRing(3px, 3px, 4px, 1em * $n, 1em * $n, 1px * $n, 50px * $n, #ff0004, absolute, #808080);
+    margin-left: 400px;
+
+  }
+  $n: $n / 1.2;
+}
+
+.rond {
+  @include myRing(3px, 3px, 4px, 3em, 3em, 3px, 0px, #FF8D33, relative, none);
+}
+.margin {
+  margin : 0 10px;
+}
+.rond7 {
+  @include myRing(3px, 3px, 4px, 7em, 7em, 5px, 0px, #F3DA07, relative, #F3C507);
+}
+h1 {
+  font-family: anicm, sans-serif;
+}
