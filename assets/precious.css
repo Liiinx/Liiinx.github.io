@@ -1,6 +1,6 @@
 .main {
     height: 150px;
-    background-image: url("image/bg_light.png");
+    background-image: url("../image/bg_light.png");
     display: flex;
     justify-content: center;
     align-items: center;
